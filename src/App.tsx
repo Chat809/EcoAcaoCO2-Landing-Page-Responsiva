@@ -54,12 +54,37 @@ function App() {
         <div className="gradient-overlay"></div>
 
         <div className="container hero-content">
-          <h1>Redução de Emissão de Gás Carbônico</h1>
-          <p>
-            A chave para mitigar as mudanças climáticas e proteger o nosso planeta
-            para as futuras gerações.
-          </p>
-        </div>
+  <h1>Redução de Emissão de Gás Carbônico</h1>
+  <p>
+    A chave para mitigar as mudanças climáticas e proteger o nosso planeta
+    para as futuras gerações.
+  </p>
+  
+
+  {/* Botão para acessar o jogo */}
+  <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <a
+      href="https://marianasilva028.itch.io/cards-c"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: 'inline-block',
+        backgroundColor: '#5e2b18',
+        color: 'white',
+        padding: '15px 25px',
+        borderRadius: '8px',
+        textDecoration: 'none',
+        fontWeight: 'bold',
+        fontSize: '16px',
+      }}
+    >
+      Clique Neste Botão e Tenha Acesso ao Nosso Jogo
+    </a>
+  </div>
+</div>
+
+
+
       </section>
 
       {/* ===== ABOUT SECTION ===== */}
