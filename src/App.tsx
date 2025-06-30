@@ -55,10 +55,19 @@ function App() {
 
         <div className="container hero-content">
           <h1>Redução de Emissão de Gás Carbônico</h1>
-          <p>
-            A chave para mitigar as mudanças climáticas e proteger o nosso planeta
-            para as futuras gerações.
-          </p>
+          <p>  
+             A chave para mitigar as mudanças climáticas e proteger o nosso planeta
+             para as futuras gerações.
+         </p>
+
+         <a
+             href="#"
+             className="btn-jogo"
+             target="_blank"
+             rel="noopener noreferrer"
+        >
+           Clique neste botão e tenha acesso ao nosso jogo
+           </a>
         </div>
       </section>
 
